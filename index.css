@@ -1,18 +1,41 @@
 input#hide[type=text] {
-    width: 130px;
+    width: 0px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
+    border: transparent;
+    border-radius: 0px;
     font-size: 16px;
     background-color: white;
-    background-image: url('https://www.w3schools.com/howto/searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
+    /* background-image: url('src/icons8-search-50.png');  */
+    background-repeat:no-repeat;
+    background-size:50%;
     padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
+    -webkit-transition: width 0.5s ease-in-out;
     transition: width 0.4s ease-in-out;
+    cursor: pointer;
 }
 
 input#hide[type=text]:focus {
+    width: 100%;
+    background-size:10%; 
+    border: transparent;
+}
+
+input#hide1[type=text] {
+    width: 0px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 0px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('src/icons8-search-50.png'); 
+    background-repeat:no-repeat;
+    background-size:50%;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+input.hide1[type=text] {
     width: 100%;
 }

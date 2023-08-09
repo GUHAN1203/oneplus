@@ -14,24 +14,12 @@ function phone(name,type,id,price,description) {
     };
 phones= [] ;
 
-alert(document.querySelector("#mobileName").value )
 
-document.querySelector("#mobileSubmit").addEventListener("click",function(){
-    let phone1=  new phone("ubuu" , "mobile",1234,120000,"knneefn");
-        alert(phone1.name);
-})
+let oneplus_11= phone("ONEPLUS 11 5G","8 GB RAM" + "128 GB Storage",1,"40,000","5g")
+let oneplus_11r = phone("ONEPLUS 11R 5G","8 GB RAM" + "128 GB Storage",1,"40,000","5g")
+let oneplus_9 = phone("ONEPLUS 9 5G","8 GB RAM" + "128 GB Storage",1,"40,000","5g")
+let oneplus_9r = phone("ONEPLUS 9R 5G","8 GB RAM" + "128 GB Storage",1,"40,000","5g")
 
-
-
-for (let i=0;i<phones.length;i++){
-
-    console.log(phones[i]);
-
-    for (let j=0; j<phones[i].length; j++){
-        console.log(phones[i][j]);
-    }
-    
-}
 
 for (i in phones) {
     for (j in phones[i]) {

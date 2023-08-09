@@ -43,6 +43,17 @@ input.hide1[type=text] {
 /*-------------------------------Footer---------------------------------------*/
 
 footer{
-    background-color: #0000;
-    height: 100px;
+    background-color: black;
+}
+footer li{
+    list-style: none;
+    color: #828282;
+    line-height: 2rem;
+}
+footer li:hover{
+    color: aliceblue;
+}
+.list-head{
+    color: aliceblue;
+    margin-bottom:0.5rem;
 }

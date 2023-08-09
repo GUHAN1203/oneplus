@@ -40,6 +40,30 @@ input.hide1[type=text] {
     width: 100%;
 }
 
-.carousal-img img {
-    height: ;
+/*-------------------------------Footer---------------------------------------*/
+
+footer{
+    background-color: black;
+    padding: 5% 0 ;
+}
+
+footer li a:hover{
+    color: aliceblue;
+}
+.list-head{
+    color: aliceblue;
+    margin-bottom:0.5rem;
+}
+footer li{
+    list-style: none;
+}
+footer li a{
+    text-decoration: none;
+    font-size: small;
+    color: #828282;
+    line-height: 2rem;
+}
+footer .support a{
+    color: aliceblue;
+    text-decoration: none;
 }

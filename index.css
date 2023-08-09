@@ -63,3 +63,7 @@ footer li a{
     color: #828282;
     line-height: 2rem;
 }
+footer .support a{
+    color: aliceblue;
+    text-decoration: none;
+}

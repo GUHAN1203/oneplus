@@ -1,7 +1,3 @@
-document.querySelector(".js-search-icon").addEventListener("click",function(){
-    
-    document.querySelector(".js-search-input").classList.add("hide1");
-})
 
 function phone(name,type,id,price,description) {
         
@@ -12,16 +8,27 @@ function phone(name,type,id,price,description) {
         this.description=description;
         
     };
-phones= [] ;
+let nord = new phone(11111,1111,1,1,) ;
+let oneplus = new phone(22,2,22,2,2);
 
-alert(document.querySelector("#mobileName").value )
-
-document.querySelector("#mobileSubmit").addEventListener("click",function(){
-    let phone1=  new phone("ubuu" , "mobile",1234,120000,"knneefn");
-        alert(phone1.name);
-})
+phones =[nord,oneplus];
 
 
 
+for (let i=0;i<phones.length;i++){
 
+    console.log(phones[i]);
 
+    for (let j=0; j<phones[i].length; j++){
+        console.log(phones[i][j]);
+    }
+    
+}
+
+for (i in phones) {
+    for (j in phones[i]) {
+        console.log(phones[i][j])
+        
+    }
+    
+}

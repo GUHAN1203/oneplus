@@ -13,6 +13,9 @@ input#hide[type=text] {
     transition: width 0.4s ease-in-out;
     cursor: pointer;
 }
+*{
+    font-family: 'Oxygen', sans-serif;
+}
 
 input#hide[type=text]:focus {
     width: 100%;

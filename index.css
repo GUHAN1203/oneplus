@@ -40,6 +40,9 @@ input.hide1[type=text] {
     width: 100%;
 }
 
+.dropdown{
+    a:hover
+}
 /*-------------------------------Footer---------------------------------------*/
 
 footer{

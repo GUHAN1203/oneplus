@@ -70,3 +70,42 @@ footer .support a{
     color: aliceblue;
     text-decoration: none;
 }
+
+/* -------------------footer-accordian--------------------------- */
+
+.accordion {
+    background-color: black;
+    color: #ffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  .panel ul{
+    padding: 0%;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color:black;
+    overflow: hidden;
+    color: #828282;
+  }
+
+  @media (min-width:1022px) {
+    #footer-2{
+        display: none;
+    }
+  }
+  @media(max-width:1021px){
+    #footer-1{
+        display: none;
+    }
+  }
+
+  /*-------------------------------------------------------*/

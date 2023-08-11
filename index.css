@@ -108,3 +108,8 @@ footer .support a{
   }
 
   /*-------------------------------------------------------*/
+
+
+  .navbar-toggler.no-border:focus{
+    border: 0px solid transparent !important;
+  }

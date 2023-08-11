@@ -108,3 +108,14 @@ footer .support a{
   }
 
   /*-------------------------------------------------------*/
+
+  .grid-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-item-img{
+    grid-row-start: span 2;
+  }
+  .grid-item-3{
+    align-self: self-end;
+  }

@@ -109,7 +109,13 @@ footer .support a{
 
   /*-------------------------------------------------------*/
 
-
-  .navbar-toggler.no-border:focus{
-    border: 0px solid transparent !important;
+  .grid-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-item-img{
+    grid-row-start: span 2;
+  }
+  .grid-item-3{
+    align-self: self-end;
   }

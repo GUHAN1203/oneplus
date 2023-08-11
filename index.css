@@ -119,3 +119,18 @@ footer .support a{
   .grid-item-3{
     align-self: self-end;
   }
+
+
+  /*-------------------------------------------------------------*/
+
+  .hot-picks-head p{
+    display: inline;
+    font-size: larger;
+    color: black;
+    padding-bottom: 0.13rem;
+    cursor: pointer;
+  }
+  .hot-picks-head p:active{
+
+    border-bottom:1px solid red;
+  }

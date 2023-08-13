@@ -142,6 +142,7 @@ footer .support a{
     background: transparent; /* optional: just make scrollbar invisible */ 
     }
   .horizontal-scroll div{
+    margin-right: 45px;
     display: inline-block;
 
   }

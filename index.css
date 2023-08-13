@@ -145,9 +145,23 @@ footer .support a{
 
   }
 
-  .hot-picks-img{
+  .hot-pick-img{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f8f8f8;
   }
+  .zoom-in{
+    transition: transform .5s;
+    transform: scale(1);
+  }
+  .zoom-in:hover{ 
+    transform: scale(1.1);
+  }
+  
+
+
+
+
+
+

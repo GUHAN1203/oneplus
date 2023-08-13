@@ -123,14 +123,25 @@ footer .support a{
 
   /*-------------------------------------------------------------*/
 
-  .hot-picks-head p{
-    display: inline;
-    font-size: larger;
-    color: black;
-    padding-bottom: 0.13rem;
-    cursor: pointer;
-  }
-  .hot-picks-head p:active{
-
+  
+  .horizontal-scroll div:active{
     border-bottom:1px solid red;
+  }
+  .body{
+    overflow-x: hidden;
+  }
+ 
+  .horizontal-scroll{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  ::-webkit-scrollbar { 
+    width: 0px; /* remove scrollbar space */ 
+    background: transparent; /* optional: just make scrollbar invisible */ 
+    }
+  .horizontal-scroll div{
+    display: inline-block;
+
   }

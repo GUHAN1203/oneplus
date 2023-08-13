@@ -145,23 +145,34 @@ footer .support a{
 
   }
 
-  .hot-pick-img{
+  .hot-picks-img{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f8f8f8;
   }
   .zoom-in{
-    transition: transform .5s;
+    transition: transform .4s;
     transform: scale(1);
   }
   .zoom-in:hover{ 
     transform: scale(1.1);
   }
+
+  .hot-picks-highlight a div{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    color: black;
+    padding: 10px 0;
+    
+  }
   
-
-
-
-
+  .hot-picks-highlight a div:hover{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
 
 

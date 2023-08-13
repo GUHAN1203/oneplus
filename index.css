@@ -121,7 +121,7 @@ footer .support a{
   }
 
 
-  /*-------------------------------------------------------------*/
+  /*--------------------------highlight section-----------------------------------*/
 
   
   .hot-picks-head div:hover{
@@ -169,7 +169,7 @@ footer .support a{
     
   }
   
-  .hot-picks-highlight a div:hover{
+  .hot-picks-highlight div:hover .highlight-button{
     background-color: black;
     color: white;
     justify-content: center;
@@ -179,9 +179,15 @@ footer .support a{
   .hot-picks-highlight{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 15px;
   }
 
+  .hot-picks-highlight-card p{
+    font-size: 14px;
+  }
+  .hot-picks-highlight-card h3{
+    font-size: 1.7rem;
+  }
   .hot-picks-highlight h3,p{
     white-space:normal;
   }
@@ -189,5 +195,7 @@ footer .support a{
   .hot-picks-highlight-card{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 3fr 2fr 1fr;
+    grid-template-rows: 3fr 1.8fr 1fr;
   }
+
+  /* -------------------------------------------------------------------------------------------- */

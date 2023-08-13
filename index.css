@@ -124,7 +124,7 @@ footer .support a{
   /*-------------------------------------------------------------*/
 
   
-  .horizontal-scroll div:hover{
+  .hot-picks-head div:hover{
     border-bottom:1px solid red;
   }
   
@@ -133,13 +133,21 @@ footer .support a{
     overflow-y: hidden;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    margin-bottom: 1%;
   }
   ::-webkit-scrollbar { 
     width: 0px; /* remove scrollbar space */ 
     background: transparent; /* optional: just make scrollbar invisible */ 
     }
-  .horizontal-scroll div{
+  .hot-picks-head div{
     margin-right: 45px;
     display: inline-block;
 
+  }
+
+  .hot-picks-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
   }

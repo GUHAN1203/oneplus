@@ -124,7 +124,7 @@ footer .support a{
   /*-------------------------------------------------------------*/
 
   
-  .horizontal-scroll div:active{
+  .horizontal-scroll div:hover{
     border-bottom:1px solid red;
   }
   
@@ -138,13 +138,8 @@ footer .support a{
     width: 0px; /* remove scrollbar space */ 
     background: transparent; /* optional: just make scrollbar invisible */ 
     }
-  .horizontal-scroll p{
-    margin-right: 45px;
-    display: inline-block;
-
-  }
   .horizontal-scroll div{
-    
+    margin-right: 45px;
     display: inline-block;
 
   }

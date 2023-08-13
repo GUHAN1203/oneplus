@@ -127,10 +127,7 @@ footer .support a{
   .horizontal-scroll div:active{
     border-bottom:1px solid red;
   }
-  .body{
-    overflow-x: hidden;
-  }
- 
+  
   .horizontal-scroll{
     overflow-x: scroll;
     overflow-y: hidden;

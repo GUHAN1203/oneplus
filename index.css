@@ -119,3 +119,8 @@ footer .support a{
   .grid-item-3{
     align-self: self-end;
   }
+  .our-carousel .carousel-caption{
+    left: 3%;
+    color: aqua;
+
+  }

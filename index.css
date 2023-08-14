@@ -179,7 +179,7 @@ footer .support a{
   .hot-picks-highlight{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
-    gap: 15px;
+    gap: 50px;
   }
 
   .hot-picks-highlight-card p{
@@ -194,7 +194,7 @@ footer .support a{
 
   .hot-picks-highlight-card{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns:1fr;
     grid-template-rows: 3fr 1.8fr 1fr;
   }
 

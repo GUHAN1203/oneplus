@@ -133,3 +133,7 @@ footer .support a{
     position: fixed;
     z-index: 1;
   }
+/*  */
+.carousel-item .caption-left{
+  left: 5%;
+}

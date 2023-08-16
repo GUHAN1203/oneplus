@@ -5,37 +5,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Oneplus</title>
-  <link rel="stylesheet" href="index.css">
 
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
 
 </head>
 
 <body>
   <div class="d-grid">
-
-
     <div class="row-cols-1">
       <div class="col-12">
         <nav class="navbar   navbar-expand-lg p-0 bg-body-tertiary" style="margin: 0%; ">
-          
+
           <div class="container-fluid my-0  " style="font-size:80%;">
-              <a class=" ps-5 navbar-brand me-3 " href="index.html"><img src="src/OnePlus-Logo-new.png" style="width: 100px;" alt=""></a>
+            <a class=" ps-5 navbar-brand me-3 " href="index.html"><img src="src/OnePlus-Logo-new.png"
+                style="width: 100px;" alt=""></a>
 
-
-            <button style="box-shadow: none;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
+            
+            <button style="box-shadow: none; border: none;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
               <ul class="navbar-nav  mb-2 mb-lg-0 text-nowrap  ">
                 <li class="nav-item">
-                  <a class="nav-link " href="mobile.html">Phone</a>
+                  <a class="nav-link active" aria-current="page" href="mobile.html">Phone</a>
                 </li> 
                 <li class="nav-item">
                   <a class="nav-link " href="tv-display.html">TV/Display</a>
@@ -54,6 +52,7 @@
 
 
               <div class="d-flex ms-auto">
+              <div class="d-flex ms-auto">
                 <div class="d-flex me-5">
 
                   <div class="dropdown text-end">
@@ -61,7 +60,20 @@
                       data-bs-toggle="dropdown" aria-expanded="false">
                       <span alt="login" style="width: 10px;"
                         class="material-symbols-outlined rounded-circle mx-3 my-0 ">search</span>
+                    <a href="#" class="display-1 link-body-emphasis text-decoration-none  dropdown-header"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      <span alt="login" style="width: 10px;"
+                        class="material-symbols-outlined rounded-circle mx-3 my-0 ">search</span>
                     </a>
+                    <ul class="dropdown-menu text-small">
+                      <li><a class="dropdown-item" href="#"><input class="form-control mr-sm-2" type="search"
+                            placeholder="Search" aria-label="Search"></a></li>
+                    </ul>
+                  </div>
+
+                  <a href="#" class="d-block link-body-emphasis text-decoration-none  mx-2" aria-expanded="false">
+                    <img src="src/shopping-cart.png" alt="cart" width="25" height="25" class="rounded-circle">
+                  </a>
                     <ul class="dropdown-menu text-small">
                       <li><a class="dropdown-item" href="#"><input class="form-control mr-sm-2" type="search"
                             placeholder="Search" aria-label="Search"></a></li>
@@ -77,10 +89,20 @@
                       data-bs-toggle="dropdown" aria-expanded="false">
                       <span alt="login" style="width: 10px;"
                         class="material-symbols-outlined rounded-circle mx-1">person</span>
+
+                    <a href="#" class="display-1 link-body-emphasis text-decoration-none  dropdown-header"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      <span alt="login" style="width: 10px;"
+                        class="material-symbols-outlined rounded-circle mx-1">person</span>
                     </a>
                     <ul class="  dropdown-menu text-small">
                       <li><a class="dropdown-item" href="#"></a>
+                    <ul class="  dropdown-menu text-small">
+                      <li><a class="dropdown-item" href="#"></a>
                       <li><a class="dropdown-item" href="#">Sign up or Sign in</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
                       <li>
                         <hr class="dropdown-divider">
                       </li>
@@ -88,7 +110,13 @@
                       <li>
                         <hr class="dropdown-divider">
                       </li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
                       <li><a class="dropdown-item" href="#">Account</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
                       <li>
                         <hr class="dropdown-divider">
                       </li>
@@ -97,8 +125,11 @@
                   </div>
                 </div>
 
+
               </div>
             </div>
+            </div>
+
 
 
 
@@ -109,8 +140,14 @@
       </div>
       </nav>
 
-    </div>
 
+
+          </div>
+      </div>
+      </nav>
+
+    </div>
+    </div>
 
 
 
@@ -122,8 +159,10 @@
     <div class="container-fluid">
       <div class=" row ">
 
+
         <div class="col">
           <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
 
             <!-- Indicators/dots -->
             <div class="carousel-indicators">
@@ -133,7 +172,7 @@
             </div>
 
             <!-- The slideshow/carousel -->
-            <div class="carousel-inner">
+            <div class="carousel-inner our-carousel">
               <div class="carousel-item active carousal-img ">
                 <img  src="https://oasis.opstatics.com/content/dam/oasis/page/2023/in/kv-banner/nord-3-5g/1_Nord35G-tablet.jpg.thumb.webp" alt="Los Angeles" class="d-block" style="width:100%">
                 
@@ -286,38 +325,61 @@
           <div class="card rounded-0 border-white h-100">
             <img height="100%" src="https://oasis.opstatics.com/content/dam/oasis/page/events/in/product-list/TV-43-Y1S-pro.png" style="min-height: 250px;" >
 
-            <div class="card-body bg-white">
-              <p class="card-header bg-white"><b>ONEPLUS TV</b></p>
-              <p>   <b>O series </b>32| 43 | 55 </p>
-              <div class="d-grid gap-2 col-12 mx-auto">
-                <button class="btn btn-dark rounded-0 " type="button">Buy</button>
-              </div>
-              <div class="d- justify-content-between align-items-center ">
-                <div class="btn-group"> </div>
-                
-                <small class="text-decoration-line-through text-secondary">₹20,000</small>
-                <small class="text-black text-primary">₹12,499</small>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+  
+            <div class="container d-none d-lg-block">
+              <div class="grid-parent">
+                <div class="grid-item-1">
+                  <h1 class="pt-1" style="color: black; font-family: 'Oxygen', sans-serif;">OnePlus 115G</h1>
+                </div>
+                <div class="grid-item-img"><img class="w-100"
+                    src="https://oasis.opstatics.com/content/dam/oasis/page/2023/in/medium-product-card/TV-43-Y1S-pro.png.thumb.webp"
+                    alt=""></div>
+                <div class="grid-item-3">
+                  <div>
+                    <p class="pt-3"
+                      style="color: black; font-family: 'Oxygen', sans-serif; font-size:medium;word-break: break-all; margin-top: auto; ;">
+                      Link your OnePlus device & Get ₹2000 off on
+                      select variants.
+                    </p>
+                    <p class="" style="color: black; font-family: 'Oxygen', sans-serif; font-size: larger;">
+                      From ₹54 999* Incl. bank discount
+                    </p>
+                    <button class=" bg-dark text-white   px-5 py-1" type="button">Buy now</button>
+                    <a href="#" class="btn">Learn More</a>
+                  </div>
+                </div>
+        
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-            <div class="card rounded-0 border-white h-100">
-              <img height="100%" src="https://image01-in.oneplus.net/india-oneplus-statics-file/epb/202307/07/9lxLVmzYXnH0JRr8.png?x-amz-process=image/format,webp/quality,Q_80"  style="min-height: 250px;" >
-  
-              <div class="card-body bg-white">
-                <p class="card-header bg-white"><b>Oneplus Nord Buds 2</b></p>
-                <p>GEN-2</p>
-               
-                <div class="d-grid gap-2 col-12 mx-auto">
-                  <button class="btn btn-dark rounded-0 " type="button">Buy</button>
+          <div class="col-6">
+            <div class="container d-none d-lg-block">
+              <div class="grid-parent">
+                <div class="grid-item-1">
+                  <h1 class="pt-1" style="color: black; font-family: 'Oxygen', sans-serif;">OnePlus 115G</h1>
                 </div>
-                <div class="d- justify-content-between align-items-center ">
-                  <div class="btn-group"></div>
-                  
-                  <small class="text-decoration-line-through text-secondary">₹2999</small>
-                  <small class="text-black text-primary">₹2699</small>
+                <div class="grid-item-img"><img class="w-100"
+                    src="https://oasis.opstatics.com/content/dam/oasis/page/2023/in/medium-product-card/Nord-buds-2-pc.png.thumb.webp"
+                    alt=""></div>
+                <div class="grid-item-3">
+                  <div>
+                    <p class="pt-3"
+                      style="color: black; font-family: 'Oxygen', sans-serif; font-size:medium;word-break: break-all; margin-top: auto; ;">
+                      Link your OnePlus device & Get ₹2000 off on
+                      select variants.
+                    </p>
+                    <p class="" style="color: black; font-family: 'Oxygen', sans-serif; font-size: larger;">
+                      From ₹54 999* Incl. bank discount
+                    </p>
+                    <button class=" bg-dark text-white   px-5 py-1" type="button">Buy now</button>
+                    <a href="#" class="btn">Learn More</a>
+                  </div>
                 </div>
+        
               </div>
             </div>
           </div>
@@ -328,7 +390,6 @@
       <div >
         <pre>
 
-        </pre>
       </div>
       <!--  -->
       <section class="hot-picks container mt-3">
@@ -438,167 +499,178 @@
   
       </section>
       
-      
-      <!--  -->
-      <footer>
-        <div class="container" id="footer-1">
-          <div class="row mb-5">
-            <div class="col-2 me-3">
-              <ul>
-                <li class="list-head">Phones</li>
-                <li><a href="">OnePlus 11 5G</a></li>
-                <li><a href="">OnePlus 11R 5G </a></li>
-                <li><a href="">OnePlus Nord 3 5G</a></li>
-                <li><a href="">OnePlus Nord CE3 5G</a></li>
-                <li><a href="">OnePlus Nord CE 3 Lite 5G</a></li>
-                <li><a href="">OnePlus 10R 5G</a></li>
-                <li><a href="">OnePlus 10 Pro 5G</a></li>
-                <li><a href="">OnePlus Nord 2T 5G</a></li>
-                <li><a href="">OnePlus 10T 5G</a></li>
-                <li><a href="">OnePlus 9 5G</a></li>
-                <li><a href="">OnePlus 9R 5G</a></li>
-                <li><a href="">OnePlus 9R 4G</a></li>
-              </ul>
-            </div>
-            <div class="col-2 me-3">
-              <ul>
-                <li class="list-head">Store</li>
-                <li><a href="">Tablet</a></li>
-                <li><a href="">TV & Display</a></li>
-                <li><a href="">Audio</a></li>
-                <li><a href="">Wearables</a></li>
-                <li><a href="">Cases & Protection</a></li>
-                <li><a href="">Power & Cables</a></li>
-                <li><a href="">Bundles</a></li>
-                <li><a href="">Gear</a></li>
-              </ul>
-            </div>
-            <div class="col-2 me-3">
-              <ul>
-                <li class="list-head">Support</li>
-                <li><a href="">Protection Plan</a></li>
-                <li><a href="">Shopping FAQs</a></li>
-                <li><a href="">User Manuals</a></li>
-                <li><a href="">Service Centers</a></li>
-                <li><a href="">Affiliate Program</a></li>
-                <li><a href="">Repair Service</a></li>
-                <li><a href="">Repair Pricing</a></li>
-                <li><a href="">TV Spare Part Price</a></li>
-                <li><a href="">Software Update</a></li>
-              </ul>
-            </div>
-            <div class="col-2 me-3">
-              <ul>
-                <li class="list-head">Explore</li>
-                <li><a href="">About OnePlus</a></li>
-                <li><a href="">Community</a></li>
-                <li><a href="">Find a store</a></li>
-                <li><a href="">OnePlus Store app</a></li>
-                <li><a href="">OxygenOS</a></li>
-                <li><a href="">Press</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Careers</a></li>
-                <li><a href="">Campus Oppurtunities</a></li>
-              </ul>
-            </div>
-            <div class="col-2 me-3">
-              <ul>
-                <li class="list-head">Programs</li>
-                <li><a href="">Exchange Program</a></li>
-                <li><a href="">Red Cable Club</a></li>
-              </ul>
+
+
+    .
+
+
+
+
+
+    <footer>
+      <div class="container" id="footer-1">
+        <div class="row mb-5">
+          <div class="col-2 me-3">
+            <ul>
+              <li class="list-head">Phones</li>
+              <li><a href="">OnePlus 11 5G</a></li>
+              <li><a href="">OnePlus 11R 5G </a></li>
+              <li><a href="">OnePlus Nord 3 5G</a></li>
+              <li><a href="">OnePlus Nord CE3 5G</a></li>
+              <li><a href="">OnePlus Nord CE 3 Lite 5G</a></li>
+              <li><a href="">OnePlus 10R 5G</a></li>
+              <li><a href="">OnePlus 10 Pro 5G</a></li>
+              <li><a href="">OnePlus Nord 2T 5G</a></li>
+              <li><a href="">OnePlus 10T 5G</a></li>
+              <li><a href="">OnePlus 9 5G</a></li>
+              <li><a href="">OnePlus 9R 5G</a></li>
+              <li><a href="">OnePlus 9R 4G</a></li>
+            </ul>
+          </div>
+          <div class="col-2 me-3">
+            <ul>
+              <li class="list-head">Store</li>
+              <li><a href="">Tablet</a></li>
+              <li><a href="">TV & Display</a></li>
+              <li><a href="">Audio</a></li>
+              <li><a href="">Wearables</a></li>
+              <li><a href="">Cases & Protection</a></li>
+              <li><a href="">Power & Cables</a></li>
+              <li><a href="">Bundles</a></li>
+              <li><a href="">Gear</a></li>
+            </ul>
+          </div>
+          <div class="col-2 me-3">
+            <ul>
+              <li class="list-head">Support</li>
+              <li><a href="">Protection Plan</a></li>
+              <li><a href="">Shopping FAQs</a></li>
+              <li><a href="">User Manuals</a></li>
+              <li><a href="">Service Centers</a></li>
+              <li><a href="">Affiliate Program</a></li>
+              <li><a href="">Repair Service</a></li>
+              <li><a href="">Repair Pricing</a></li>
+              <li><a href="">TV Spare Part Price</a></li>
+              <li><a href="">Software Update</a></li>
+            </ul>
+          </div>
+          <div class="col-2 me-3">
+            <ul>
+              <li class="list-head">Explore</li>
+              <li><a href="">About OnePlus</a></li>
+              <li><a href="">Community</a></li>
+              <li><a href="">Find a store</a></li>
+              <li><a href="">OnePlus Store app</a></li>
+              <li><a href="">OxygenOS</a></li>
+              <li><a href="">Press</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Campus Oppurtunities</a></li>
+            </ul>
+          </div>
+          <div class="col-2 me-3">
+            <ul>
+              <li class="list-head">Programs</li>
+              <li><a href="">Exchange Program</a></li>
+              <li><a href="">Red Cable Club</a></li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="row" style="display: flex; justify-content: space-between;">
+          <div class="col-3">
+            <div class="row">
+              <div class="col-12 support"><a href="">Get Support From OnePlus</a></div>
+              <div class="col-12"></div>
             </div>
           </div>
-  
-  
-          <div class="row" style="display: flex; justify-content: space-between;">
-            <div class="col-3">
-              <div class="row">
-                <div class="col-12 support"><a href="">Get Support From OnePlus</a></div>
-                <div class="col-12"></div>
-              </div>
-            </div>
-            <div class="col-3">
-              <p>India(English)</p>
-            </div>
-          </div>   
+          <div class="col-3">
+            <p>India(English)</p>
+          </div>
         </div>
-        
-        <!--------------------------------------->
-  
-        <div class="container" id="footer-2">
-          <button class="accordion">Phones</button>
-              <div class="panel">
-                <ul>
-                  <li><a href="">OnePlus 11 5G</a></li>
-                  <li><a href="">OnePlus 11R 5G </a></li>
-                  <li><a href="">OnePlus Nord 3 5G</a></li>
-                  <li><a href="">OnePlus Nord CE3 5G</a></li>
-                  <li><a href="">OnePlus Nord CE 3 Lite 5G</a></li>
-                  <li><a href="">OnePlus 10R 5G</a></li>
-                  <li><a href="">OnePlus 10 Pro 5G</a></li>
-                  <li><a href="">OnePlus Nord 2T 5G</a></li>
-                  <li><a href="">OnePlus 10T 5G</a></li>
-                  <li><a href="">OnePlus 9 5G</a></li>
-                  <li><a href="">OnePlus 9R 5G</a></li>
-                  <li><a href="">OnePlus 9R 4G</a></li>
-                </ul>
-              </div>
-  
-          <button class="accordion">Store</button>
-              <div class="panel">
-                <ul>
-                  <li><a href="">Tablet</a></li>
-                  <li><a href="">TV & Display</a></li>
-                  <li><a href="">Audio</a></li>
-                  <li><a href="">Wearables</a></li>
-                  <li><a href="">Cases & Protection</a></li>
-                  <li><a href="">Power & Cables</a></li>
-                  <li><a href="">Bundles</a></li>
-                  <li><a href="">Gear</a></li>
-                </ul>
-                </div>
-  
-          <button class="accordion">Support</button>
-              <div class="panel">
-                <ul>
-                  <li><a href="">Protection Plan</a></li>
-                  <li><a href="">Shopping FAQs</a></li>
-                  <li><a href="">User Manuals</a></li>
-                  <li><a href="">Service Centers</a></li>
-                  <li><a href="">Affiliate Program</a></li>
-                  <li><a href="">Repair Service</a></li>
-                  <li><a href="">Repair Pricing</a></li>
-                  <li><a href="">TV Spare Part Price</a></li>
-                  <li><a href="">Software Update</a></li>
-                </ul>
-                </div>
-          <button class="accordion">Explore</button>
-                <div class="panel">
-                  <ul>
-                    <li><a href="">About OnePlus</a></li>
-                    <li><a href="">Community</a></li>
-                    <li><a href="">Find a store</a></li>
-                    <li><a href="">OnePlus Store app</a></li>
-                    <li><a href="">OxygenOS</a></li>
-                    <li><a href="">Press</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Careers</a></li>
-                    <li><a href="">Campus Oppurtunities</a></li>
-                  </ul>
-                </div>
-          <button class="accordion">Programs</button>
-                <div class="panel">
-                  <ul>
-                    <li><a href="">Exchange Program</a></li>
-                    <li><a href="">Red Cable Club</a></li>
-                  </ul>
-                </div>
+      </div>
+
+      <!--------------------------------------->
+
+      <div class="container" id="footer-2">
+        <button class="accordion">Phones</button>
+        <div class="panel">
+          <ul>
+            <li><a href="">OnePlus 11 5G</a></li>
+            <li><a href="">OnePlus 11R 5G </a></li>
+            <li><a href="">OnePlus Nord 3 5G</a></li>
+            <li><a href="">OnePlus Nord CE3 5G</a></li>
+            <li><a href="">OnePlus Nord CE 3 Lite 5G</a></li>
+            <li><a href="">OnePlus 10R 5G</a></li>
+            <li><a href="">OnePlus 10 Pro 5G</a></li>
+            <li><a href="">OnePlus Nord 2T 5G</a></li>
+            <li><a href="">OnePlus 10T 5G</a></li>
+            <li><a href="">OnePlus 9 5G</a></li>
+            <li><a href="">OnePlus 9R 5G</a></li>
+            <li><a href="">OnePlus 9R 4G</a></li>
+          </ul>
         </div>
-      </footer>
-      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-      <script src="index.js"></script>
-      
-  </body>
+
+        <button class="accordion">Store</button>
+        <div class="panel">
+          <ul>
+            <li><a href="">Tablet</a></li>
+            <li><a href="">TV & Display</a></li>
+            <li><a href="">Audio</a></li>
+            <li><a href="">Wearables</a></li>
+            <li><a href="">Cases & Protection</a></li>
+            <li><a href="">Power & Cables</a></li>
+            <li><a href="">Bundles</a></li>
+            <li><a href="">Gear</a></li>
+          </ul>
+        </div>
+
+        <button class="accordion">Support</button>
+        <div class="panel">
+          <ul>
+            <li><a href="">Protection Plan</a></li>
+            <li><a href="">Shopping FAQs</a></li>
+            <li><a href="">User Manuals</a></li>
+            <li><a href="">Service Centers</a></li>
+            <li><a href="">Affiliate Program</a></li>
+            <li><a href="">Repair Service</a></li>
+            <li><a href="">Repair Pricing</a></li>
+            <li><a href="">TV Spare Part Price</a></li>
+            <li><a href="">Software Update</a></li>
+          </ul>
+        </div>
+        <button class="accordion">Explore</button>
+        <div class="panel">
+          <ul>
+            <li><a href="">About OnePlus</a></li>
+            <li><a href="">Community</a></li>
+            <li><a href="">Find a store</a></li>
+            <li><a href="">OnePlus Store app</a></li>
+            <li><a href="">OxygenOS</a></li>
+            <li><a href="">Press</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Campus Oppurtunities</a></li>
+          </ul>
+        </div>
+        <button class="accordion">Programs</button>
+        <div class="panel">
+          <ul>
+            <li><a href="">Exchange Program</a></li>
+            <li><a href="">Red Cable Club</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+      integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+
 </html>
